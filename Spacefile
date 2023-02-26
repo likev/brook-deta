@@ -1,18 +1,9 @@
 v: 0
 micros:
-  - name: brook-wsserver
-    src: ./brook-deta
-    engine: custom
-    presets:
-      env:
-        - name: SECRET_WS
-          description: Secret message only available to this Micro
-          default: "deta is cool"
+  - name: node-micro
+    src: ./node
+    engine: nodejs16
     public_routes:
       - "/ws" # exact match
-      - "/public/*" # wildcards
-    commands:
-      - go build main.go
-    run: ./main wsserver -p 271828brook
-    include:
-      - main
+      - "/*" # wildcards
+    run: "node index.js"

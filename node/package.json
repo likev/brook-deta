@@ -1,0 +1,26 @@
+{
+    "name": "@likev/brook-deta-test",
+    "version": "0.0.1",
+    "description": "test deta.space API.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node ./index.js",
+      "server": "node ./index.js"
+    },
+    "author": "likev",
+    "license": "MIT",
+    "type": "module",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/likev/brook-deta.git"
+    },
+    "keywords": [
+      "api",
+      "cli",
+      "ws"
+    ],
+    "dependencies": {
+      "ws": "^8.12.0"
+    }
+  }
