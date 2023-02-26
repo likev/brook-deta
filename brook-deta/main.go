@@ -343,6 +343,7 @@ func main() {
 					Name:    "password",
 					Aliases: []string{"p"},
 					Usage:   "Server password",
+					Value: os.Getenv("SECRET_WS"),
 				},
 				&cli.StringFlag{
 					Name:  "path",
