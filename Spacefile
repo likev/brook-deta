@@ -1,0 +1,13 @@
+v: 0
+micros:
+  - name: brook-wsserver
+    src: ./brook-deta
+    engine: custom
+    public_routes:
+      - "/ws" # exact match
+      - "/public/*" # wildcards
+    commands:
+      - go build main.go
+    run: ./main wsserver -p 271828brook
+    include:
+      - main
