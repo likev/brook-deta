@@ -1,6 +1,6 @@
 import { WebSocketServer } from 'ws';
 
-const wss = new WebSocketServer({ port: process.env.PORT });
+const wss = new WebSocketServer({ port: process.env.PORT || 3000 });
 
 wss.on('connection', function connection(ws) {
     ws.on('error', console.error);
@@ -14,7 +14,7 @@ wss.on('connection', function connection(ws) {
 
     setInterval(() => {
         count++;
-        ws.send({ count, time: interval * count });
-    }, interval);
+        ws.send(JSON.stringify({ count, time: interval * count }));
+    }, interval * 1000);
 
 });
