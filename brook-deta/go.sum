@@ -19,6 +19,8 @@ github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB7
 github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
+github.com/likev/brook v0.0.0-20230302034853-93eb7267b4f1 h1:CEOoZik2iu8EQB6LQfSlibIYCKGuPQyWwgGf+1YaUaU=
+github.com/likev/brook v0.0.0-20230302034853-93eb7267b4f1/go.mod h1:sTsCLx7QYAQMCzLJXsIaXd/Qt3xgfNpqFNQHB0zE4HU=
 github.com/miekg/dns v1.1.43 h1:JKfpVSCB84vrAmHzyrsxB5NAr5kLoMXZArPSw7Qlgyg=
 github.com/miekg/dns v1.1.43/go.mod h1:+evo5L0630/F6ca/Z9+GAqzhjGyn8/c+TBaOyfEl0V4=
 github.com/onsi/ginkgo/v2 v2.2.0 h1:3ZNA3L1c5FYDFTTxbFeVGGD8jYvjYauHD30YgLxVsNI=
@@ -48,15 +50,13 @@ github.com/tdewolff/minify v2.3.6+incompatible/go.mod h1:9Ov578KJUmAWpS6NeZwRZyT
 github.com/tdewolff/parse v2.3.4+incompatible h1:x05/cnGwIMf4ceLuDMBOdQ1qGniMoxpP46ghf0Qzh38=
 github.com/tdewolff/parse v2.3.4+incompatible/go.mod h1:8oBwCsVmUkgHO8M5iCzSIDtpzXOT0WXX9cWhz+bIzJQ=
 github.com/tdewolff/test v1.0.6 h1:76mzYJQ83Op284kMT+63iCNCI7NEERsIN8dLM+RiKr4=
-github.com/txthinking/brook v0.0.0-20230218073212-415ebce62c6e h1:vVkJIOs10CMJceX0tXf1FNavWcQokPogJ+7YwbqDOlw=
-github.com/txthinking/brook v0.0.0-20230218073212-415ebce62c6e/go.mod h1:kLaI5iQtNDThV1ehXwXF2lbaCxGBjesRRzWlhJnLb4Y=
 github.com/txthinking/crypto v0.0.0-20210716135230-de9624a415a4 h1:B7V42IzgF+GNjoaOLbBBl97ZJ6dBmWDzCaKYVZEfLZ0=
 github.com/txthinking/crypto v0.0.0-20210716135230-de9624a415a4/go.mod h1:zHo3SEOo2aSacDyz0YJ3GL5GbZrc5nyp8LWTkzVHv6g=
 github.com/txthinking/runnergroup v0.0.0-20210608031112-152c7c4432bf/go.mod h1:CLUSJbazqETbaR+i0YAhXBICV9TrKH93pziccMhmhpM=
 github.com/txthinking/runnergroup v0.0.0-20230211072751-d11f16258c86 h1:nIvfVa+OBTatLNAIHI83i3qUKbkuBfUcvbyBUKmH8HE=
 github.com/txthinking/runnergroup v0.0.0-20230211072751-d11f16258c86/go.mod h1:cldYm15/XHcGt7ndItnEWHwFZo7dinU+2QoyjfErhsI=
-github.com/txthinking/socks5 v0.0.0-20230218064523-bfcd05be2cf1 h1:Y9Bw4Qq+k/z3Q4jjfgXpgNxRLtQFqAYDnVSCTvmpfvQ=
-github.com/txthinking/socks5 v0.0.0-20230218064523-bfcd05be2cf1/go.mod h1:7NloQcrxaZYKURWph5HLxVDlIwMHJXCPkeWPtpftsIg=
+github.com/txthinking/socks5 v0.0.0-20230215122820-1d06f3a253de h1:Uar4PWybdMCn4DoppuEl8Fd9qMuXqZFMNmvpDy8vhY4=
+github.com/txthinking/socks5 v0.0.0-20230215122820-1d06f3a253de/go.mod h1:7NloQcrxaZYKURWph5HLxVDlIwMHJXCPkeWPtpftsIg=
 github.com/txthinking/x v0.0.0-20210326105829-476fab902fbe/go.mod h1:WgqbSEmUYSjEV3B1qmee/PpP2NYEz4bL9/+mF1ma+s4=
 github.com/txthinking/x v0.0.0-20220929041811-1b4d914e9133 h1:fUw8+3ruX0uv2gAko4D0v6IpLmSI2soOkGl6YYmiBrM=
 github.com/txthinking/x v0.0.0-20220929041811-1b4d914e9133/go.mod h1:WgqbSEmUYSjEV3B1qmee/PpP2NYEz4bL9/+mF1ma+s4=

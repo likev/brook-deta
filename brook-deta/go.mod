@@ -1,11 +1,10 @@
-module github.com/likev/brook-deta
+module github.com/brook-deta
 
 go 1.19
 
 require (
-	github.com/txthinking/brook v0.0.0-20230218073212-415ebce62c6e
+	github.com/likev/brook v0.0.0-20230302034853-93eb7267b4f1
 	github.com/txthinking/runnergroup v0.0.0-20230211072751-d11f16258c86
-	github.com/txthinking/socks5 v0.0.0-20230218064523-bfcd05be2cf1
 	github.com/urfave/cli/v2 v2.24.4
 )
 
@@ -28,6 +27,7 @@ require (
 	github.com/tdewolff/minify v2.3.6+incompatible // indirect
 	github.com/tdewolff/parse v2.3.4+incompatible // indirect
 	github.com/txthinking/crypto v0.0.0-20210716135230-de9624a415a4 // indirect
+	github.com/txthinking/socks5 v0.0.0-20230215122820-1d06f3a253de // indirect
 	github.com/txthinking/x v0.0.0-20220929041811-1b4d914e9133 // indirect
 	github.com/urfave/negroni v1.0.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
